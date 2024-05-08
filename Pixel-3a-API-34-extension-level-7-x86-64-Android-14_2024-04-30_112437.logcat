@@ -1,0 +1,3274 @@
+{
+  "metadata": {
+    "device": {
+      "deviceId": "Pixel_3a_API_34_extension_level_7_x86_64",
+      "name": "Pixel 3a API 34 extension level 7 x86 64",
+      "serialNumber": "emulator-5554",
+      "isOnline": true,
+      "release": "14",
+      "sdk": 34,
+      "featureLevel": 34,
+      "model": "",
+      "isEmulator": true
+    },
+    "filter": "",
+    "projectApplicationIds": []
+  },
+  "logcatMessages": [
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 0,
+        "tid": 0,
+        "applicationId": "",
+        "processName": "",
+        "tag": "",
+        "timestamp": {
+          "seconds": 0,
+          "nanos": 0
+        }
+      },
+      "message": "--------- beginning of main"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501314,
+          "nanos": 982000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.99ms min\u003d496.83ms max\u003d504.87ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501316,
+          "nanos": 478000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.60ms min\u003d487.47ms max\u003d504.21ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 0,
+        "tid": 0,
+        "applicationId": "",
+        "processName": "",
+        "tag": "",
+        "timestamp": {
+          "seconds": 0,
+          "nanos": 0
+        }
+      },
+      "message": "--------- beginning of kernel"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501317,
+          "nanos": 978000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.14ms min\u003d498.20ms max\u003d501.43ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 0,
+        "tid": 0,
+        "applicationId": "kernel",
+        "processName": "kernel",
+        "tag": "logd",
+        "timestamp": {
+          "seconds": 1714501318,
+          "nanos": 529000000
+        }
+      },
+      "message": "logdr: UID\u003d2000 GID\u003d2000 PID\u003d8424 b tail\u003d0 logMask\u003d99 pid\u003d0 start\u003d0ns deadline\u003d0ns"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501319,
+          "nanos": 479000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.24ms min\u003d498.12ms max\u003d503.70ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2308,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1714501320,
+          "nanos": 39000000
+        }
+      },
+      "message": "Predicting[0]: "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2308,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1714501320,
+          "nanos": 40000000
+        }
+      },
+      "message": "EchoTargets: \nFiltered by AiAi flag check: "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2308,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1714501320,
+          "nanos": 40000000
+        }
+      },
+      "message": "Ranked targets strategy: SORT, count: 0, ranking metadata: "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2308,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1714501320,
+          "nanos": 41000000
+        }
+      },
+      "message": "#postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types\u003d[])"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "PageIndicator",
+        "timestamp": {
+          "seconds": 1714501320,
+          "nanos": 50000000
+        }
+      },
+      "message": "Total number of pages invalid: 0. Assuming 1 page."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1113,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501320,
+          "nanos": 56000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d39122.71ms min\u003d39122.71ms max\u003d39122.71ms count\u003d1"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501320,
+          "nanos": 925000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501320,
+          "nanos": 973000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d497.90ms min\u003d495.28ms max\u003d499.65ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501321,
+          "nanos": 983000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d505.11ms min\u003d503.03ms max\u003d507.19ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501323,
+          "nanos": 478000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.34ms min\u003d495.33ms max\u003d502.31ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501324,
+          "nanos": 980000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.59ms min\u003d497.15ms max\u003d506.30ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501326,
+          "nanos": 480000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.86ms min\u003d494.59ms max\u003d504.92ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501327,
+          "nanos": 971000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d496.81ms min\u003d492.91ms max\u003d499.10ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501328,
+          "nanos": 977000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d503.18ms min\u003d498.46ms max\u003d507.89ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501330,
+          "nanos": 479000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.51ms min\u003d497.99ms max\u003d502.58ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501330,
+          "nanos": 927000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501331,
+          "nanos": 979000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.05ms min\u003d493.40ms max\u003d505.30ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501332,
+          "nanos": 979000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.19ms min\u003d499.90ms max\u003d500.48ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501333,
+          "nanos": 980000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.32ms min\u003d500.04ms max\u003d500.59ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501335,
+          "nanos": 478000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.47ms min\u003d498.35ms max\u003d501.37ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501336,
+          "nanos": 979000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.14ms min\u003d497.01ms max\u003d502.60ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501337,
+          "nanos": 979000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.98ms min\u003d499.11ms max\u003d500.85ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501338,
+          "nanos": 985000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d502.74ms min\u003d498.56ms max\u003d506.92ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501340,
+          "nanos": 477000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d497.39ms min\u003d493.67ms max\u003d501.86ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501340,
+          "nanos": 931000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501341,
+          "nanos": 978000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.25ms min\u003d496.62ms max\u003d502.34ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501342,
+          "nanos": 979000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.76ms min\u003d500.60ms max\u003d500.91ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501344,
+          "nanos": 478000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.49ms min\u003d498.87ms max\u003d499.91ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501345,
+          "nanos": 979000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.43ms min\u003d497.20ms max\u003d505.25ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501347,
+          "nanos": 473000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.02ms min\u003d495.00ms max\u003d499.82ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 593,
+        "tid": 1012,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "androidtc",
+        "timestamp": {
+          "seconds": 1714501347,
+          "nanos": 807000000
+        }
+      },
+      "message": "Initializing SystemTextClassifier, type \u003d System"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 1888,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1714501347,
+          "nanos": 812000000
+        }
+      },
+      "message": "onCreateTextClassificationSession \u003d TextClassificationSessionId {87f0ba08-bf57-47a8-b18e-0d9aa314a058}"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2540,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTranslate",
+        "timestamp": {
+          "seconds": 1714501347,
+          "nanos": 814000000
+        }
+      },
+      "message": "C2T - not in a conversation"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ClipboardListener",
+        "timestamp": {
+          "seconds": 1714501347,
+          "nanos": 814000000
+        }
+      },
+      "message": "Clipboard overlay suppressed."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2609,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1714501347,
+          "nanos": 817000000
+        }
+      },
+      "message": "GenerateLinks did not find valid links, returning empty result"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ClipboardListener",
+        "timestamp": {
+          "seconds": 1714501347,
+          "nanos": 820000000
+        }
+      },
+      "message": "Clipboard overlay suppressed."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2609,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1714501347,
+          "nanos": 821000000
+        }
+      },
+      "message": "GenerateLinks did not find valid links, returning empty result"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1874,
+        "tid": 1874,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "ProactiveSuggestionsHolderManager",
+        "timestamp": {
+          "seconds": 1714501347,
+          "nanos": 827000000
+        }
+      },
+      "message": "ProactiveSuggestionsHolderManager$3.display():216 Requesting to show proactive suggestions: CLIPBOARD PREEMPTIVE_WITH_SUPPRESSION"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1874,
+        "tid": 1874,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "ProactiveSuggestionsHolderManager",
+        "timestamp": {
+          "seconds": 1714501347,
+          "nanos": 830000000
+        }
+      },
+      "message": "ProactiveSuggestionsHolderManager$3.display():216 Requesting to show proactive suggestions: CLIPBOARD PREEMPTIVE_WITH_SUPPRESSION"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1874,
+        "tid": 2316,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501347,
+          "nanos": 867000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d26203.96ms min\u003d7.01ms max\u003d261822.92ms count\u003d10"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501348,
+          "nanos": 977000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d501.26ms min\u003d488.31ms max\u003d509.40ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 593,
+        "tid": 1012,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "androidtc",
+        "timestamp": {
+          "seconds": 1714501349,
+          "nanos": 957000000
+        }
+      },
+      "message": "Initializing SystemTextClassifier, type \u003d System"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 1888,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1714501349,
+          "nanos": 958000000
+        }
+      },
+      "message": "onCreateTextClassificationSession \u003d TextClassificationSessionId {c7b0eec9-6b27-4e1b-a1de-0d1aa943d3d5}"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2540,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTranslate",
+        "timestamp": {
+          "seconds": 1714501349,
+          "nanos": 960000000
+        }
+      },
+      "message": "C2T - not in a conversation"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ClipboardListener",
+        "timestamp": {
+          "seconds": 1714501349,
+          "nanos": 960000000
+        }
+      },
+      "message": "Clipboard overlay suppressed."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2609,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1714501349,
+          "nanos": 961000000
+        }
+      },
+      "message": "GenerateLinks did not find valid links, returning empty result"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ClipboardListener",
+        "timestamp": {
+          "seconds": 1714501349,
+          "nanos": 964000000
+        }
+      },
+      "message": "Clipboard overlay suppressed."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2609,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1714501349,
+          "nanos": 965000000
+        }
+      },
+      "message": "GenerateLinks did not find valid links, returning empty result"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1874,
+        "tid": 1874,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "ProactiveSuggestionsHolderManager",
+        "timestamp": {
+          "seconds": 1714501349,
+          "nanos": 969000000
+        }
+      },
+      "message": "ProactiveSuggestionsHolderManager$3.display():216 Requesting to show proactive suggestions: CLIPBOARD PREEMPTIVE_WITH_SUPPRESSION"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1874,
+        "tid": 1874,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "ProactiveSuggestionsHolderManager",
+        "timestamp": {
+          "seconds": 1714501349,
+          "nanos": 969000000
+        }
+      },
+      "message": "ProactiveSuggestionsHolderManager$3.display():216 Requesting to show proactive suggestions: CLIPBOARD PREEMPTIVE_WITH_SUPPRESSION"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1874,
+        "tid": 2316,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501350,
+          "nanos": 9000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d209.42ms min\u003d7.65ms max\u003d1882.31ms count\u003d10"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501350,
+          "nanos": 479000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.58ms min\u003d492.68ms max\u003d507.33ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501350,
+          "nanos": 926000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501351,
+          "nanos": 972000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d497.75ms min\u003d496.48ms max\u003d499.14ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501352,
+          "nanos": 977000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d502.19ms min\u003d497.66ms max\u003d506.71ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501353,
+          "nanos": 978000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.48ms min\u003d499.54ms max\u003d501.43ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501355,
+          "nanos": 479000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.22ms min\u003d499.80ms max\u003d500.76ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501356,
+          "nanos": 479000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.25ms min\u003d499.26ms max\u003d501.24ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501357,
+          "nanos": 975000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.45ms min\u003d496.46ms max\u003d500.51ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501358,
+          "nanos": 980000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d502.54ms min\u003d501.94ms max\u003d503.14ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501360,
+          "nanos": 476000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.61ms min\u003d494.37ms max\u003d502.80ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501360,
+          "nanos": 929000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1113,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501360,
+          "nanos": 954000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d20448.84ms min\u003d875.50ms max\u003d40022.19ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501361,
+          "nanos": 479000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d501.67ms min\u003d471.13ms max\u003d532.21ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501362,
+          "nanos": 980000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.39ms min\u003d497.97ms max\u003d502.66ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501364,
+          "nanos": 480000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.65ms min\u003d496.97ms max\u003d504.09ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501365,
+          "nanos": 977000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.96ms min\u003d494.07ms max\u003d504.35ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501367,
+          "nanos": 474000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.26ms min\u003d498.22ms max\u003d500.25ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 593,
+        "tid": 1012,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "androidtc",
+        "timestamp": {
+          "seconds": 1714501367,
+          "nanos": 540000000
+        }
+      },
+      "message": "Initializing SystemTextClassifier, type \u003d System"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 1888,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1714501367,
+          "nanos": 543000000
+        }
+      },
+      "message": "onCreateTextClassificationSession \u003d TextClassificationSessionId {65d7fb64-aa94-4130-b6fa-d8507b463634}"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2540,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTranslate",
+        "timestamp": {
+          "seconds": 1714501367,
+          "nanos": 545000000
+        }
+      },
+      "message": "C2T - not in a conversation"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1874,
+        "tid": 8434,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "androidtc",
+        "timestamp": {
+          "seconds": 1714501367,
+          "nanos": 546000000
+        }
+      },
+      "message": "Initializing SystemTextClassifier, type \u003d System"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ClipboardListener",
+        "timestamp": {
+          "seconds": 1714501367,
+          "nanos": 546000000
+        }
+      },
+      "message": "Clipboard overlay suppressed."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2609,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1714501367,
+          "nanos": 553000000
+        }
+      },
+      "message": "GenerateLinks did not find valid links, returning empty result"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2609,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1714501367,
+          "nanos": 556000000
+        }
+      },
+      "message": "GenerateLinks did not find valid links, returning empty result"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ClipboardListener",
+        "timestamp": {
+          "seconds": 1714501367,
+          "nanos": 558000000
+        }
+      },
+      "message": "Clipboard overlay suppressed."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1874,
+        "tid": 1874,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "ProactiveSuggestionsHolderManager",
+        "timestamp": {
+          "seconds": 1714501367,
+          "nanos": 560000000
+        }
+      },
+      "message": "ProactiveSuggestionsHolderManager$3.display():216 Requesting to show proactive suggestions: CLIPBOARD PREEMPTIVE_WITH_SUPPRESSION"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1874,
+        "tid": 1874,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "ProactiveSuggestionsHolderManager",
+        "timestamp": {
+          "seconds": 1714501367,
+          "nanos": 561000000
+        }
+      },
+      "message": "ProactiveSuggestionsHolderManager$3.display():216 Requesting to show proactive suggestions: CLIPBOARD PREEMPTIVE_WITH_SUPPRESSION"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1874,
+        "tid": 2316,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501367,
+          "nanos": 579000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d1947.73ms min\u003d6.86ms max\u003d17346.61ms count\u003d9"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501368,
+          "nanos": 476000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.64ms min\u003d496.71ms max\u003d504.58ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501369,
+          "nanos": 479000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d501.61ms min\u003d499.94ms max\u003d503.28ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501370,
+          "nanos": 934000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501370,
+          "nanos": 979000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.97ms min\u003d493.66ms max\u003d503.61ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501371,
+          "nanos": 980000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.36ms min\u003d499.95ms max\u003d500.77ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501373,
+          "nanos": 473000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d497.51ms min\u003d496.31ms max\u003d498.48ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501374,
+          "nanos": 479000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d503.05ms min\u003d497.28ms max\u003d508.81ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501375,
+          "nanos": 974000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.49ms min\u003d494.93ms max\u003d502.98ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501376,
+          "nanos": 981000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d503.42ms min\u003d499.91ms max\u003d506.93ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501377,
+          "nanos": 981000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.99ms min\u003d496.89ms max\u003d503.08ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501379,
+          "nanos": 477000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.43ms min\u003d496.94ms max\u003d500.76ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2308,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1714501380,
+          "nanos": 20000000
+        }
+      },
+      "message": "Predicting[0]: "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2308,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1714501380,
+          "nanos": 20000000
+        }
+      },
+      "message": "EchoTargets: \nFiltered by AiAi flag check: "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2308,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1714501380,
+          "nanos": 21000000
+        }
+      },
+      "message": "Ranked targets strategy: SORT, count: 0, ranking metadata: "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2308,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1714501380,
+          "nanos": 21000000
+        }
+      },
+      "message": "#postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types\u003d[])"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "PageIndicator",
+        "timestamp": {
+          "seconds": 1714501380,
+          "nanos": 34000000
+        }
+      },
+      "message": "Total number of pages invalid: 0. Assuming 1 page."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1113,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501380,
+          "nanos": 37000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d19083.08ms min\u003d19083.08ms max\u003d19083.08ms count\u003d1"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501380,
+          "nanos": 481000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d501.96ms min\u003d499.40ms max\u003d504.53ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501380,
+          "nanos": 929000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501381,
+          "nanos": 983000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.60ms min\u003d494.98ms max\u003d506.33ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501383,
+          "nanos": 476000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d497.77ms min\u003d496.31ms max\u003d498.74ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501384,
+          "nanos": 477000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.15ms min\u003d498.26ms max\u003d502.04ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501385,
+          "nanos": 478000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.89ms min\u003d494.27ms max\u003d507.50ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 0,
+        "tid": 0,
+        "applicationId": "",
+        "processName": "",
+        "tag": "",
+        "timestamp": {
+          "seconds": 0,
+          "nanos": 0
+        }
+      },
+      "message": "--------- beginning of system"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501386,
+          "nanos": 980000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.43ms min\u003d498.10ms max\u003d502.36ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 593,
+        "tid": 626,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ProcessStats",
+        "timestamp": {
+          "seconds": 1714501387,
+          "nanos": 767000000
+        }
+      },
+      "message": "Tracking association SourceState{e44b21c system/1000 BFgs #14960} whose proc state 4 is better than process ProcessState{ababd0c com.google.android.gms.persistent/10129 pkg\u003dcom.google.android.gms} proc state 9 (25 skipped)"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 5371,
+        "tid": 7479,
+        "applicationId": "com.google.android.gms.persistent",
+        "processName": "com.google.android.gms.persistent",
+        "tag": "AlarmManager",
+        "timestamp": {
+          "seconds": 1714501387,
+          "nanos": 777000000
+        }
+      },
+      "message": "setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 5333668]"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 5371,
+        "tid": 6217,
+        "applicationId": "com.google.android.gms.persistent",
+        "processName": "com.google.android.gms.persistent",
+        "tag": "WakeLock",
+        "timestamp": {
+          "seconds": 1714501387,
+          "nanos": 781000000
+        }
+      },
+      "message": "GCM_HB_ALARM release without a matched acquire!"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 5371,
+        "tid": 6217,
+        "applicationId": "com.google.android.gms.persistent",
+        "processName": "com.google.android.gms.persistent",
+        "tag": "AlarmManager",
+        "timestamp": {
+          "seconds": 1714501387,
+          "nanos": 838000000
+        }
+      },
+      "message": "setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 5503729]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501388,
+          "nanos": 474000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.12ms min\u003d496.19ms max\u003d499.33ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501388,
+          "nanos": 538000000
+        }
+      },
+      "message": "ignoring old pipeline callback because the new wifi icon is enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501389,
+          "nanos": 478000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d501.69ms min\u003d499.84ms max\u003d503.54ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501390,
+          "nanos": 930000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501390,
+          "nanos": 976000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.34ms min\u003d497.22ms max\u003d500.67ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501391,
+          "nanos": 542000000
+        }
+      },
+      "message": "ignoring old pipeline callback because the new wifi icon is enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501391,
+          "nanos": 979000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d501.53ms min\u003d499.40ms max\u003d503.67ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501393,
+          "nanos": 478000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.62ms min\u003d499.46ms max\u003d499.90ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501394,
+          "nanos": 548000000
+        }
+      },
+      "message": "ignoring old pipeline callback because the new wifi icon is enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501394,
+          "nanos": 978000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.95ms min\u003d498.44ms max\u003d501.52ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501395,
+          "nanos": 978000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.27ms min\u003d499.66ms max\u003d500.89ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501397,
+          "nanos": 472000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d497.73ms min\u003d494.56ms max\u003d500.12ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501397,
+          "nanos": 553000000
+        }
+      },
+      "message": "ignoring old pipeline callback because the new wifi icon is enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501398,
+          "nanos": 475000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d501.72ms min\u003d501.25ms max\u003d502.18ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501399,
+          "nanos": 971000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.66ms min\u003d496.10ms max\u003d501.82ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501400,
+          "nanos": 931000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501401,
+          "nanos": 475000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d501.25ms min\u003d498.60ms max\u003d504.59ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501402,
+          "nanos": 476000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.11ms min\u003d500.05ms max\u003d500.17ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501403,
+          "nanos": 974000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.22ms min\u003d495.57ms max\u003d501.92ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501405,
+          "nanos": 473000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.68ms min\u003d494.92ms max\u003d502.61ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 593,
+        "tid": 1104,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "WifiNl80211Manager",
+        "timestamp": {
+          "seconds": 1714501406,
+          "nanos": 404000000
+        }
+      },
+      "message": "Scan result ready event"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 593,
+        "tid": 1104,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "WifiNative",
+        "timestamp": {
+          "seconds": 1714501406,
+          "nanos": 404000000
+        }
+      },
+      "message": "Scan result ready event"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501406,
+          "nanos": 973000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.08ms min\u003d498.69ms max\u003d501.81ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501407,
+          "nanos": 973000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.95ms min\u003d498.88ms max\u003d501.03ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501408,
+          "nanos": 974000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.49ms min\u003d499.67ms max\u003d501.32ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501409,
+          "nanos": 978000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d501.64ms min\u003d496.50ms max\u003d506.78ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501410,
+          "nanos": 932000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501411,
+          "nanos": 473000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.58ms min\u003d496.14ms max\u003d500.95ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501412,
+          "nanos": 976000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.95ms min\u003d498.91ms max\u003d504.69ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501414,
+          "nanos": 476000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.69ms min\u003d495.74ms max\u003d503.11ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501415,
+          "nanos": 476000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.16ms min\u003d498.57ms max\u003d501.76ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501416,
+          "nanos": 477000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.34ms min\u003d498.87ms max\u003d501.82ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501417,
+          "nanos": 972000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.28ms min\u003d496.51ms max\u003d500.82ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501419,
+          "nanos": 474000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.60ms min\u003d499.23ms max\u003d502.28ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501420,
+          "nanos": 474000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.32ms min\u003d498.24ms max\u003d502.41ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501420,
+          "nanos": 930000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501421,
+          "nanos": 971000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.02ms min\u003d494.07ms max\u003d502.87ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501422,
+          "nanos": 971000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.99ms min\u003d499.01ms max\u003d500.96ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 593,
+        "tid": 1012,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "androidtc",
+        "timestamp": {
+          "seconds": 1714501423,
+          "nanos": 805000000
+        }
+      },
+      "message": "Initializing SystemTextClassifier, type \u003d System"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 1888,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1714501423,
+          "nanos": 808000000
+        }
+      },
+      "message": "onCreateTextClassificationSession \u003d TextClassificationSessionId {91f8b39c-c09d-4a6a-84db-cd245b1ead5b}"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ClipboardListener",
+        "timestamp": {
+          "seconds": 1714501423,
+          "nanos": 813000000
+        }
+      },
+      "message": "Clipboard overlay suppressed."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2540,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTranslate",
+        "timestamp": {
+          "seconds": 1714501423,
+          "nanos": 815000000
+        }
+      },
+      "message": "C2T - not in a conversation"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2609,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1714501423,
+          "nanos": 847000000
+        }
+      },
+      "message": "GenerateLinks did not find valid links, returning empty result"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ClipboardListener",
+        "timestamp": {
+          "seconds": 1714501423,
+          "nanos": 849000000
+        }
+      },
+      "message": "Clipboard overlay suppressed."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2609,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1714501423,
+          "nanos": 850000000
+        }
+      },
+      "message": "GenerateLinks did not find valid links, returning empty result"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1874,
+        "tid": 1874,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "ProactiveSuggestionsHolderManager",
+        "timestamp": {
+          "seconds": 1714501423,
+          "nanos": 856000000
+        }
+      },
+      "message": "ProactiveSuggestionsHolderManager$3.display():216 Requesting to show proactive suggestions: CLIPBOARD PREEMPTIVE_WITH_SUPPRESSION"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1874,
+        "tid": 1874,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "ProactiveSuggestionsHolderManager",
+        "timestamp": {
+          "seconds": 1714501423,
+          "nanos": 859000000
+        }
+      },
+      "message": "ProactiveSuggestionsHolderManager$3.display():216 Requesting to show proactive suggestions: CLIPBOARD PREEMPTIVE_WITH_SUPPRESSION"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1874,
+        "tid": 2316,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501423,
+          "nanos": 884000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d5116.70ms min\u003d7.67ms max\u003d56033.00ms count\u003d11"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501424,
+          "nanos": 12000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d520.02ms min\u003d501.15ms max\u003d538.89ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501425,
+          "nanos": 475000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d487.93ms min\u003d461.05ms max\u003d502.89ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501426,
+          "nanos": 477000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.62ms min\u003d495.82ms max\u003d505.43ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501427,
+          "nanos": 972000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.37ms min\u003d497.34ms max\u003d499.54ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501429,
+          "nanos": 471000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.66ms min\u003d499.22ms max\u003d500.48ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501430,
+          "nanos": 473000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.94ms min\u003d500.40ms max\u003d501.48ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501430,
+          "nanos": 931000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501431,
+          "nanos": 473000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.97ms min\u003d494.33ms max\u003d505.62ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501432,
+          "nanos": 974000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.27ms min\u003d495.41ms max\u003d503.04ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501433,
+          "nanos": 975000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.48ms min\u003d489.54ms max\u003d511.42ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501435,
+          "nanos": 475000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.93ms min\u003d497.69ms max\u003d504.26ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501436,
+          "nanos": 977000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.60ms min\u003d495.32ms max\u003d505.52ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501438,
+          "nanos": 472000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.23ms min\u003d497.09ms max\u003d499.71ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501439,
+          "nanos": 472000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.18ms min\u003d497.70ms max\u003d502.67ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2308,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1714501440,
+          "nanos": 13000000
+        }
+      },
+      "message": "Predicting[0]: "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2308,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1714501440,
+          "nanos": 13000000
+        }
+      },
+      "message": "EchoTargets: \nFiltered by AiAi flag check: "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2308,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1714501440,
+          "nanos": 13000000
+        }
+      },
+      "message": "Ranked targets strategy: SORT, count: 0, ranking metadata: "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1888,
+        "tid": 2308,
+        "applicationId": "com.google.android.as",
+        "processName": "com.google.android.as",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1714501440,
+          "nanos": 14000000
+        }
+      },
+      "message": "#postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types\u003d[])"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "PageIndicator",
+        "timestamp": {
+          "seconds": 1714501440,
+          "nanos": 19000000
+        }
+      },
+      "message": "Total number of pages invalid: 0. Assuming 1 page."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1113,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501440,
+          "nanos": 22000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d59984.71ms min\u003d59984.71ms max\u003d59984.71ms count\u003d1"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501440,
+          "nanos": 936000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501440,
+          "nanos": 971000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.53ms min\u003d499.33ms max\u003d499.71ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501441,
+          "nanos": 972000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.54ms min\u003d500.01ms max\u003d501.07ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501442,
+          "nanos": 973000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.38ms min\u003d498.73ms max\u003d502.03ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501444,
+          "nanos": 473000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.83ms min\u003d498.17ms max\u003d501.05ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501445,
+          "nanos": 970000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.13ms min\u003d498.67ms max\u003d499.80ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501446,
+          "nanos": 974000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d501.89ms min\u003d501.21ms max\u003d502.57ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501448,
+          "nanos": 473000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.63ms min\u003d498.95ms max\u003d500.48ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501449,
+          "nanos": 973000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.98ms min\u003d499.17ms max\u003d500.93ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501450,
+          "nanos": 931000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501451,
+          "nanos": 475000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.74ms min\u003d498.23ms max\u003d503.73ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501452,
+          "nanos": 975000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.86ms min\u003d496.93ms max\u003d502.33ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501454,
+          "nanos": 473000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.19ms min\u003d495.97ms max\u003d501.48ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501455,
+          "nanos": 474000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.55ms min\u003d498.40ms max\u003d502.71ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 0,
+        "tid": 0,
+        "applicationId": "kernel",
+        "processName": "kernel",
+        "tag": "logd",
+        "timestamp": {
+          "seconds": 1714501456,
+          "nanos": 811000000
+        }
+      },
+      "message": "logdr: UID\u003d2000 GID\u003d2000 PID\u003d8447 b tail\u003d0 logMask\u003d99 pid\u003d0 start\u003d0ns deadline\u003d0ns"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501456,
+          "nanos": 971000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.96ms min\u003d494.59ms max\u003d502.55ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 455,
+        "tid": 455,
+        "applicationId": "adbd",
+        "processName": "adbd",
+        "tag": "adbd",
+        "timestamp": {
+          "seconds": 1714501457,
+          "nanos": 972000000
+        }
+      },
+      "message": "timeout expired while flushing socket, closing"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501457,
+          "nanos": 975000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d502.06ms min\u003d499.75ms max\u003d504.38ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501459,
+          "nanos": 476000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.09ms min\u003d496.99ms max\u003d501.90ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501460,
+          "nanos": 476000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.22ms min\u003d499.64ms max\u003d500.79ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501460,
+          "nanos": 933000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1113,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501460,
+          "nanos": 947000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d20924.80ms min\u003d20924.80ms max\u003d20924.80ms count\u003d1"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501461,
+          "nanos": 972000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.52ms min\u003d477.36ms max\u003d521.20ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501462,
+          "nanos": 975000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d501.50ms min\u003d500.40ms max\u003d502.60ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501464,
+          "nanos": 477000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.73ms min\u003d495.96ms max\u003d505.81ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501465,
+          "nanos": 974000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d498.84ms min\u003d493.43ms max\u003d502.61ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501467,
+          "nanos": 473000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.45ms min\u003d498.57ms max\u003d500.01ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501468,
+          "nanos": 473000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.09ms min\u003d500.04ms max\u003d500.14ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501469,
+          "nanos": 972000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.57ms min\u003d498.24ms max\u003d500.55ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1047,
+        "tid": 1047,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StatusBarIconController",
+        "timestamp": {
+          "seconds": 1714501470,
+          "nanos": 935000000
+        }
+      },
+      "message": "ignoring old pipeline callbacks, because the new mobile icons are enabled"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501470,
+          "nanos": 972000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d500.06ms min\u003d499.42ms max\u003d500.69ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501471,
+          "nanos": 976000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d502.05ms min\u003d499.72ms max\u003d504.37ms count\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501473,
+          "nanos": 473000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.06ms min\u003d497.50ms max\u003d500.56ms count\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 8154,
+        "tid": 8188,
+        "applicationId": "com.example.forumapp",
+        "processName": "com.example.forumapp",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1714501474,
+          "nanos": 973000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d499.91ms min\u003d499.61ms max\u003d500.08ms count\u003d3"
+    }
+  ]
+}
