@@ -41,9 +41,12 @@ class _PostDetailsState extends State<PostDetails> {
           padding: const EdgeInsets.all(8.0),
           child: Column(
             children: [
-              PostData(post: widget.post),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: PostData(post: widget.post),
+              ),
               const SizedBox(height: 10),
-              Container(
+              SizedBox(
                   width: double.infinity,
                   height: 500,
                   child: Obx( () {
@@ -65,7 +68,7 @@ class _PostDetailsState extends State<PostDetails> {
                 controller: _commentController,
                 obscureText: false,
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: 20),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.black,

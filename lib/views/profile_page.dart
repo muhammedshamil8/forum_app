@@ -426,7 +426,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                       fontSize: 12,
                                       fontWeight: FontWeight.bold)),
                             ),
-                          const SizedBox( height: 160),
+                          const SizedBox( height: 220),
                           const Text('developed by Strikerz dev'),
                           const SizedBox( height: 10),
                         ],

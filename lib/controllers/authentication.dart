@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'package:forumapp/main.dart';
 
-import '/views/home_page.dart';
 import '/constants/constants.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
@@ -44,7 +43,7 @@ class AuthenticationController extends GetxController {
         //   backgroundColor: Colors.green,
         //   colorText: Colors.white,
         // );
-        Get.offAll(() => const HomePage());
+        Get.offAll(() => const NavigationPage());
       } else {
         isLoading.value = false;
         Get.snackbar(

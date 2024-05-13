@@ -22,14 +22,17 @@ class InputWidget extends StatelessWidget {
         color: Colors.grey[200],
         borderRadius: BorderRadius.circular(10),
       ),
-      child: TextField(
-        obscureText: obscureText,
-        controller: controller,
-        decoration: InputDecoration(
-          hintText: hintText,
-          hintStyle: GoogleFonts.poppins(),
-          border: InputBorder.none,
-          contentPadding: const EdgeInsets.symmetric(horizontal: 20),
+      child: Padding(
+        padding: const EdgeInsets.all(4.0),
+        child: TextField(
+          obscureText: obscureText,
+          controller: controller,
+          decoration: InputDecoration(
+            hintText: hintText,
+            hintStyle: GoogleFonts.poppins(),
+            border: InputBorder.none,
+            contentPadding: const EdgeInsets.symmetric(horizontal: 20),
+          ),
         ),
       ),
     );
