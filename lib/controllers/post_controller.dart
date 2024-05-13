@@ -37,7 +37,7 @@ class PostController extends GetxController {
         }
       } else {
         isLoading.value = false;
-        print(json.decode(response.body));
+        // print(json.decode(response.body));
         Get.snackbar(
           'Error',
           json.decode(response.body)['message'],
@@ -79,7 +79,7 @@ class PostController extends GetxController {
         posts.value
             .insert(0, PostModel.fromJson(json.decode(response.body)['feed']));
       } else {
-        print(json.decode(response.body));
+        // print(json.decode(response.body));
         Get.snackbar(
           'Error',
           json.decode(response.body)['message'],
@@ -153,7 +153,7 @@ class PostController extends GetxController {
             0, CommentModel.fromJson(json.decode(response.body)['comment']));
       } else {
         isLoading.value = false;
-        print(json.decode(response.body));
+        // print(json.decode(response.body));
         Get.snackbar(
           'Error',
           json.decode(response.body)['message'],
@@ -182,15 +182,15 @@ class PostController extends GetxController {
           json.decode(response.body)['message'] == 'Liked') {
         isLoading.value = false;
         res = 'Liked';
-        print(json.decode(response.body));
+        // print(json.decode(response.body));
       } else if (response.statusCode == 200 ||
           json.decode(response.body)['message'] == 'UnLiked') {
         res = 'UnLiked';
         isLoading.value = false;
-        print(json.decode(response.body));
+        // print(json.decode(response.body));
       } else {
         isLoading.value = false;
-        print(json.decode(response.body));
+        // print(json.decode(response.body));
       }
       return res;
     } catch (e) {

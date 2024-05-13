@@ -1,6 +1,7 @@
 import 'dart:convert';
-import 'package:forumapp/views/home_page.dart';
+import 'package:forumapp/main.dart';
 
+import '/views/home_page.dart';
 import '/constants/constants.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
@@ -33,9 +34,16 @@ class AuthenticationController extends GetxController {
       );
       if (response.statusCode == 201) {
         isLoading.value = false;
-        //  debugPrint(json.decode(response.body));
+         debugPrint(json.decode(response.body));
         token.value = json.decode(response.body)['token'];
         box.write('token', token);
+        // Get.snackbar(
+        //   'Success',
+        //   json.decode(response.body)['message'],
+        //   snackPosition: SnackPosition.TOP,
+        //   backgroundColor: Colors.green,
+        //   colorText: Colors.white,
+        // );
         Get.offAll(() => const HomePage());
       } else {
         isLoading.value = false;
@@ -50,7 +58,7 @@ class AuthenticationController extends GetxController {
       }
     } catch (e) {
       isLoading.value = false;
-      print(e.toString());
+      // print(e.toString());
     }
   }
 
@@ -69,12 +77,24 @@ class AuthenticationController extends GetxController {
         headers: {'Accept': 'application/json'},
         body: data,
       );
+
       if (response.statusCode == 200) {
         isLoading.value = false;
-        //  debugPrint(json.decode(response.body));
+        // print(json.decode(response.body));
         token.value = json.decode(response.body)['token'];
-        box.write('token', token.value);
-        Get.offAll(() => const HomePage());
+        // print(token.value);
+        box.write('token', token);
+        // print(token);
+
+
+        // Get.snackbar(
+        //   'Success',
+        //   json.decode(response.body)['message'],
+        //   snackPosition: SnackPosition.TOP,
+        //   backgroundColor: Colors.green,
+        //   colorText: Colors.white,
+        // );
+        Get.offAll(() => const NavigationPage());
       } else {
         isLoading.value = false;
         Get.snackbar(
@@ -88,7 +108,7 @@ class AuthenticationController extends GetxController {
       }
     } catch (e) {
       isLoading.value = false;
-      print(e.toString());
+      // print(e.toString());
     }
   }
 }

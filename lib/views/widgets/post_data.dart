@@ -5,6 +5,7 @@ import 'package:forumapp/views/post_detials.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+
 class PostData extends StatefulWidget {
   const PostData({
     super.key,
@@ -18,7 +19,6 @@ class PostData extends StatefulWidget {
 }
 
 class _PostDataState extends State<PostData> {
-
   final PostController _postController = Get.put(PostController());
   Color likedPost = Colors.blue;
   Color unLikedPost = Colors.black;
@@ -26,50 +26,68 @@ class _PostDataState extends State<PostData> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        padding: const EdgeInsets.all(10),
-        margin: const EdgeInsets.only(bottom: 10),
-        height: 180,
-        width: double.infinity,
-        decoration: BoxDecoration(
-          color: Colors.grey[200],
-          borderRadius: BorderRadius.circular(10),
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              widget.post.user!.name!,
-              style: GoogleFonts.poppins(),
-            ),
-            Text(
-              widget.post.user!.email!,
-              style: GoogleFonts.poppins(
-                fontSize: 10,
-              ),
-            ),
-            const SizedBox(height: 10),
-            Text(widget.post.content!),
-            Row(
+      margin: const EdgeInsets.only(bottom: 10),
+      // constraints: const BoxConstraints(minHeight: 100, maxHeight: 150), // Set min and max height here
+      // height: MediaQuery.of(context).size.height,
+      decoration: BoxDecoration(
+        color: Colors.grey[200],
+        borderRadius: BorderRadius.circular(10),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(10),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                IconButton(
-                  onPressed: () async {
-                    await _postController.likeAndDislike(widget.post.id!);
-                    _postController.getAllPosts();
-                  },
-                  icon:  Icon(Icons.thumb_up , color: widget.post.liked! ? likedPost : unLikedPost),
+                Text(
+                  widget.post.user!.name!,
+                  style: GoogleFonts.poppins(),
                 ),
-                IconButton(
-                  onPressed: () {
-                    Get.to(() =>  PostDetails(
-                      post: widget.post
-                      ),
-                    );
-                  },
-                  icon: const Icon(Icons.message),
+                Text(
+                  widget.post.user!.email!,
+                  style: GoogleFonts.poppins(fontSize: 10),
                 ),
+                // const SizedBox(height: 10),
               ],
-            )
-          ],
-        ));
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  widget.post.content!,
+                  style: GoogleFonts.poppins(),
+                ),
+                Row(
+            children: [
+              IconButton(
+                onPressed: () async {
+                  await _postController.likeAndDislike(widget.post.id!);
+                  _postController.getAllPosts();
+                },
+                icon: Icon(Icons.thumb_up,
+                    color: widget.post.liked! ? likedPost : unLikedPost),
+              ),
+              IconButton(
+                onPressed: () {
+                  Get.to(() => PostDetails(
+                        post: widget.post,
+                      ));
+                },
+                icon: const Icon(Icons.message),
+              ),
+            ],
+                        ),
+              ],
+            ),
+          ),
+         
+        ],
+      ),
+    );
   }
 }
